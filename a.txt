@@ -1,0 +1,22 @@
+fun main() {
+val teks: String® = "Saya suka pemrograman”
+
+printlin("Menggunakan let function")
+teks?.let{ it String
+
+Pera tanh ce)
+
+printin("Panjang teks : " + it. Length)
+
+printin("Menggunakan run function")
+| teks?.run { this: String
+Pea Ghee)
+println("Panjang teks : " + teks. Length)
+
+printin("Menggunakan with function")
+with(teks) { this: String?
+
+println("$teks")
+
+printin("Panjang teks : " + teks!!.Length)
+
